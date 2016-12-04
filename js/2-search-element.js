@@ -12,6 +12,6 @@ console.log(linkiPoKlasie);
 var drugiLink = linkiPoKlasie[1];
 console.log(drugiLink);
 
-for (var i=0; i<linkiPoKlasie.length; ++i) {
+for (var i=0; i<linkiPoKlasie.length; i++) {
     console.log(linkiPoKlasie[i] + " to jest link " + (i+1));
 }

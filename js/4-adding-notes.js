@@ -10,3 +10,5 @@ var nowyElementContent = document.createTextNode('To jest dodany paragraf');
 nowyElement.appendChild(nowyElementContent);
 
 var podmianaWezla = document.getElementById('parFirst').replaceChild(nowyElement, istniejacyWezel);
+
+
